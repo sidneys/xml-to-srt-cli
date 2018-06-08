@@ -2,7 +2,7 @@
   "name": "xml-to-srt-cli",
   "appId": "de.sidneys.xml-to-srt-cli",
   "version": "1.0.0",
-  "description": "Convert XML subtitles (EBU-TT format) from German (MediathekView) and British TV (BBC) publishers into proper SubRip (SRT) subtitles.",
+  "description": "Convert XML subtitles (EBU-TT format) from online broadcasting platforms like MediathekView (Germany) or the BBC (UK) into SRT (SubRip) subtitles.",
   "license": "MIT",
   "homepage": "https://github.com/sidneys/xml-to-srt-cli",
   "author": {
@@ -21,9 +21,27 @@
     "node": ">=10.0.0"
   },
   "os": [
-    "darwin"
+    "darwin",
+    "win32",
+    "linux"
   ],
-  "keywords": [],
+  "keywords": [
+    "VTT",
+    "SRT",
+    "SubRip",
+    "WEBVTT",
+    "GEZ",
+    "Beitragsservice",
+    "Öffentlich-Rechtliche",
+    "Mediathek",
+    "MediathekView",
+    "MediathekViewWeb",
+    "BBC",
+    "BBC Academy",
+    "stream",
+    "capturing",
+    "Accessibility"
+  ],
   "preferGlobal": true,
   "dependencies": {
     "@sidneys/logger": "^1.3.0",
@@ -36,7 +54,6 @@
     "moment-duration-format": "^2.2.2",
     "moment-parseformat": "^3.0.0",
     "pad": "^2.1.0",
-    "parse-git-status": "^0.1.0",
     "window-size": "^1.1.0",
     "word-wrap": "^1.2.3"
   },
