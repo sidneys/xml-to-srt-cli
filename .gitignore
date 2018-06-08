@@ -1,0 +1,34 @@
+## BASELINE
+# macOS
+.DS_Store
+
+# Logs
+logs
+*.log
+
+# Temporary
+temp
+tmp
+
+# Cache
+.cache
+cache
+.sass-cache
+
+# JetBrains
+.idea
+*.sln.iml
+
+# VSCode
+.vscode
+
+# nodeJS
+node_modules
+jspm_packages
+bower_components
+
+# Compiled
+build
+
+# Generated documentation
+RELEASENOTES.md

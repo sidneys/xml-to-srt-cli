@@ -1,0 +1,55 @@
+{
+  "name": "xml-to-srt-cli",
+  "appId": "de.sidneys.xml-to-srt-cli",
+  "version": "1.0.0",
+  "description": "Convert XML subtitles (EBU-TT format) from German (MediathekView) and British TV (BBC) publishers into proper SubRip (SRT) subtitles.",
+  "license": "MIT",
+  "homepage": "https://github.com/sidneys/xml-to-srt-cli",
+  "author": {
+    "name": "sidneys",
+    "email": "sidneys.github.io@outlook.com",
+    "url": "https://sidneys.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sidneys/xml-to-srt-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sidneys/xml-to-srt-cli/issues"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "os": [
+    "darwin"
+  ],
+  "keywords": [],
+  "preferGlobal": true,
+  "dependencies": {
+    "@sidneys/logger": "^1.3.0",
+    "app-root-path": "^2.0.1",
+    "chalk": "^2.4.1",
+    "fast-xml-parser": "^3.11.1",
+    "indent-string": "^3.2.0",
+    "minimist": "^1.2.0",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "moment-parseformat": "^3.0.0",
+    "pad": "^2.1.0",
+    "parse-git-status": "^0.1.0",
+    "window-size": "^1.1.0",
+    "word-wrap": "^1.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "jsdoc": "^3.5.5"
+  },
+  "main": "./lib/main.js",
+  "bin": {
+    "xml-to-srt": "./lib/main.js"
+  },
+  "scripts": {
+    "docs": "./node_modules/.bin/jsdoc --verbose --configure .jsdoc.json",
+    "start": "node ./lib/main.js"
+  }
+}
