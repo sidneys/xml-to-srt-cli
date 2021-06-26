@@ -48,6 +48,7 @@
     "app-root-path": "^2.0.1",
     "chalk": "^2.4.1",
     "fast-xml-parser": "^3.11.1",
+    "he": "^1.2.0",
     "indent-string": "^3.2.0",
     "minimist": "^1.2.0",
     "moment": "^2.22.2",
